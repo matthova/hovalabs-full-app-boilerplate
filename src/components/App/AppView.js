@@ -17,11 +17,13 @@ class AppView extends PureComponent {
     return container;
   }
 }
-
 AppView.propTypes = {
   store: PropTypes.object,
   children: PropTypes.node,
 };
-
+AppView.defaultProps = {
+  store: {},
+  children: null,
+};
 // export
 export default AppView;

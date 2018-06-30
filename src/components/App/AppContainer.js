@@ -4,11 +4,14 @@ import { connect } from 'react-redux';
 import App from './AppView';
 
 // map our redux store state to props of our component
-const mapStateToProps = (state, ownProps) => ({});
+const mapStateToProps = () => ({});
 
 // map a redux action to props of our component
-const mapDispatchToProps = (dispatch, ownProps) => ({});
+const mapDispatchToProps = () => ({});
 
-const ConnectedApp = connect(mapStateToProps, mapDispatchToProps)(App);
+const ConnectedApp = connect(
+  mapStateToProps,
+  mapDispatchToProps,
+)(App);
 
 export { ConnectedApp as App };
