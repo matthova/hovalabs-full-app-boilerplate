@@ -48,7 +48,7 @@ export const theme = {
     grey: 'grey',
     lightGrey: '#DDDDDD',
     black: 'black',
-    red: 'red',
+    red: '#ffaaaa',
     orange: 'orange',
     yellow: 'yellow',
     green: 'green',

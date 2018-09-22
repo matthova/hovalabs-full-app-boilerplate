@@ -1,3 +1,5 @@
 import React from 'react';
 
-export const OurApp = () => <div>Sweeeeeet</div>;
+import { Box } from '../../design-system';
+
+export const OurApp = () => <Box bg="red">Hi there</Box>;
